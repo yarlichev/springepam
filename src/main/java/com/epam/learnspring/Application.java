@@ -6,7 +6,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan(value = "com.epam.learnspring")
+//@ComponentScan(value = "com.epam.learnspring")
 public class Application {
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
